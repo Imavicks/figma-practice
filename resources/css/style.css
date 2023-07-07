@@ -74,3 +74,18 @@ body {
 span {
   margin-top: 1vw;
 }
+
+/* Mobile Responsiveness */
+@media(max-width : 744px) {
+  .heading {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 30px;
+  }
+
+  .grid-info {
+    text-align: center;
+  }
+}
