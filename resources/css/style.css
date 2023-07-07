@@ -42,3 +42,35 @@ body {
   flex-wrap: wrap;
   margin-top: 2vw;
 }
+
+.grid {
+  width: max-content;
+}
+
+.one {
+  margin-top: 1vh;
+}
+
+.two {
+  margin-top: 12vh;
+}
+
+.three {
+  margin-bottom: 1vh;
+}
+
+.four {
+  margin-top: 12vh;
+}
+
+.five {
+  margin-bottom: 1vh;
+}
+
+.grid-info {
+  color:rgba(255, 255, 255, 0.607);
+}
+
+span {
+  margin-top: 1vw;
+}
