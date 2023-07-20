@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Sylvester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satoshi&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1B1B1B;
+  height: 80vh;
+  width: 100vw;
+}
+
+.heading {
+  font-family: 'Sylvester', sans-serif;
+  color: rgba(143, 148, 255, 1);
+  font-weight: 400;
+  font-size: 30px;
+  vertical-align: top;
+  text-align: center;
+  margin-top: 5vw;
+}
+
+.description {
+  font-family: 'Satoshi', sans-serif;
+  color:rgba(255, 255, 255, 1);
+  margin-top: 2vw;
+  font-style: bold;
+  line-height: 1;
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  flex-wrap: wrap;
+  margin-top: 2vw;
+}
+
+.grid {
+  width: max-content;
+}
+
+.one {
+  margin-top: 1vh;
+}
+
+.two {
+  margin-top: 12vh;
+}
+
+.three {
+  margin-bottom: 1vh;
+}
+
+.four {
+  margin-top: 12vh;
+}
+
+.five {
+  margin-bottom: 1vh;
+}
+
+.grid-info {
+  color:rgba(255, 255, 255, 0.607);
+}
+
+span {
+  margin-top: 1vw;
+}
+
+/* Mobile Responsiveness */
+@media(max-width : 744px) {
+  .heading {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 30px;
+  }
+
+  .grid-info {
+    text-align: center;
+  }
+}
